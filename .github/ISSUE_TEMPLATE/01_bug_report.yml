@@ -1,7 +1,6 @@
-name: Tutorial Bug Report
-description: Let us know what issues you're facing when trying to run .NET tutorials on the dot.net website.
-title: "[.NET Tutorial]: "
-labels: [area-tutorials]
+name: 🐞 Bug Report
+description: Create a report about something that is not working on the .NET website.
+labels: [bug]
 body:
   - type: markdown
     attributes:
@@ -18,19 +17,8 @@ body:
   - type: input
     id: os
     attributes:
-      label: Operating system
-      description: What is your operating system?
-      placeholder: Windows/macOS/Linux
-    validations:
-      required: true
-  - type: textarea
-    id: os-version
-    attributes:
-      label: More information about your system
-      description: |
-        Please provide more information on your .NET configuration:
-          * OS version, and distro if applicable
-          * What is the architecture (x64, x86, ARM, ARM64)?
+      label: Browser
+      description: What is your browser name and version?
     validations:
       required: false
   - type: textarea
@@ -42,9 +30,9 @@ body:
     validations:
       required: true
   - type: textarea
-    id: dotnet-info
     attributes:
-      label: dotnet --info
-      description: Run the dotnet --info command and copy and paste the results
+      label: Additional context
+      description: |
+        Add any other context or screenshots about the bug here.
     validations:
       required: false

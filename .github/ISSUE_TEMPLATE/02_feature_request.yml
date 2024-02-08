@@ -1,0 +1,33 @@
+name: 💡 Feature request
+description: Suggest an idea for the website
+labels: [idea]
+body:
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the feature you are requesting. (https://github.com/dotnet/website-feedback/issues).
+      options:
+      - label: I have searched the existing issues
+        required: true
+  - type: textarea
+    id: url
+    attributes:
+      label: URL
+      description: Is this request for an existing page?
+      placeholder: https://dotnet.microsoft.com
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Describe what you'd like to see
+      description: |
+        A clear and concise description of what you want to happen. Include any alternative solutions you've considered.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: |
+        Add any other context or screenshots about the feature request here.
+    validations:
+      required: false

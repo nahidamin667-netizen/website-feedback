@@ -1,6 +1,5 @@
 name: Tutorial Bug Report
 description: Let us know what issues you're facing when trying to run .NET tutorials on the dot.net website.
-title: "[.NET Tutorial]: "
 labels: [area-tutorials]
 body:
   - type: markdown

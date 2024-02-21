@@ -1,0 +1,47 @@
+name: 💬 Translation issue
+description: Report a translation issue on the .NET website.
+labels: [loc]
+body:
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the bug you encountered ([website-feedback/issues](https://github.com/dotnet/website-feedback/issues?q=is%3Aissue)).
+      options:
+      - label: I have searched the existing issues
+        required: true
+  - type: markdown
+    attributes:
+      value: |
+        We welcome translation issue reports! Please help us gather the information we need to start the triage process.
+  - type: textarea
+    id: url
+    attributes:
+      label: URL
+      description: In what page are you having issues?
+      placeholder: https://dotnet.microsoft.com
+    validations:
+      required: true
+  - type: textarea
+    id: current-translation
+    attributes:
+      label: Current translation
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-translation
+    attributes:
+      label: Suggested translation
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Corresponding English text
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: |
+        Add any other context or screenshots about the issue here.
+    validations:
+      required: false

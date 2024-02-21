@@ -2,13 +2,6 @@ name: 💬 Translation issue
 description: Report a translation issue on the .NET website.
 labels: [area-translation]
 body:
-  - type: checkboxes
-    attributes:
-      label: Is there an existing issue for this?
-      description: Please search to see if an issue already exists for the bug you encountered ([website-feedback/issues](https://github.com/dotnet/website-feedback/issues?q=is%3Aissue)).
-      options:
-      - label: I have searched the existing issues
-        required: true
   - type: markdown
     attributes:
       value: |

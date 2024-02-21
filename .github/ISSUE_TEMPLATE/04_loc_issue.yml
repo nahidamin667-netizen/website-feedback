@@ -1,6 +1,6 @@
 name: 💬 Translation issue
 description: Report a translation issue on the .NET website.
-labels: [loc]
+labels: [area-translation]
 body:
   - type: checkboxes
     attributes:

@@ -44,6 +44,6 @@ body:
     id: dotnet-info
     attributes:
       label: dotnet --info
-      description: Run the dotnet --info command and copy and paste the results
+      description: Run the dotnet --info command on a terminal window and copy and paste the results.
     validations:
       required: false
